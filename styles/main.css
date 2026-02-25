@@ -1,0 +1,9 @@
+*, *::after, *::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}/*# sourceMappingURL=main.css.map */
