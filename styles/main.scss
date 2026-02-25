@@ -2,5 +2,8 @@
 @use "base";
 
 // Mixins
+@use "mixins/mixin_card";
 
 // Partials
+@use "partials/header";
+@use "partials/footer";

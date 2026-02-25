@@ -1,0 +1,14 @@
+@use "../variables" as *;
+@use "../mixins/mixin_card" as *;
+
+.card{
+    @include card;
+}
+
+.card_small{
+    @include card($card-small-width, $card-small-height);
+}
+
+.card_top{
+    @include card($card-top-width, $card-top-height);
+}
