@@ -1,0 +1,116 @@
+/* VARIABLES */
+$color-bg: #000;
+$color-white: #fff;
+$color-gray: #ddd;
+
+$btn-gray: rgba(109, 109, 110, 0.7);
+$btn-gray-hover: rgba(109, 109, 110, 0.4);
+
+$overlay-gradient: linear-gradient(to right,
+        rgba(0, 0, 0, 0.95) 15%,
+        rgba(0, 0, 0, 0.7) 50%,
+        transparent 100%);
+
+/* PLAYER DETAILS */
+.player-details {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 65%;
+        height: 100%;
+        background: $overlay-gradient;
+        z-index: 2;
+    }
+
+    &__content {
+        position: relative;
+        z-index: 3;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 5% 40px 5%;
+    }
+
+    &__wrapper {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    &__header {
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(6px);
+        padding: 25px;
+        border-radius: 8px;
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: $color-gray;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+/* BOTONES */
+.player-btn {
+    padding: 12px 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &--play {
+        background: $color-white;
+        color: $color-bg;
+
+        &:hover {
+            background: #e6e6e6;
+            color: rgb(109, 109, 110);
+        }
+    }
+
+    &--info {
+        background: $btn-gray;
+        color: $color-white;
+
+        &:hover {
+            background: $btn-gray-hover;
+        }
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .player-details {
+
+        &__header {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,583 @@
+{
+    "peliculas": [
+        {
+            "descripcion": "Miles Morales se convierte en Spider-Man y conoce a versiones alternativas del héroe de otros universos.",
+            "titulo": "Spider-Man: Into the Spider-Verse",
+            "año": 2018,
+            "duracion": 117,
+            "genero": "Animación, Acción, Aventura",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Shrek y Fiona viajan al reino de Muy Muy Lejano para conocer a los padres de ella.",
+            "titulo": "Shrek 2",
+            "año": 2004,
+            "duracion": 93,
+            "genero": "Animación, Comedia, Fantasía",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Dominic Toretto y su equipo viven aventuras llenas de velocidad y acción.",
+            "titulo": "Fast & Furious",
+            "año": 2001,
+            "duracion": 106,
+            "genero": "Acción, Crimen",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Biografía de Freddie Mercury y la banda Queen.",
+            "titulo": "Bohemian Rhapsody",
+            "año": 2018,
+            "duracion": 134,
+            "genero": "Drama, Biografía, Música",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Historia romántica entre Elizabeth Bennet y el señor Darcy en la Inglaterra del siglo XIX.",
+            "titulo": "Pride and Prejudice",
+            "año": 2005,
+            "duracion": 129,
+            "genero": "Romance, Drama",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Frodo Bolsón emprende un viaje para destruir el Anillo Único.",
+            "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+            "año": 2001,
+            "duracion": 178,
+            "genero": "Fantasía, Aventura",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Adaptación del clásico de Victor Hugo sobre redención y justicia en la Francia del siglo XIX.",
+            "titulo": "Los Miserables",
+            "año": 2012,
+            "duracion": 158,
+            "genero": "Drama, Musical",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Un profesor universitario se ve envuelto en una conspiración relacionada con el Vaticano.",
+            "titulo": "Ángeles y Demonios",
+            "año": 2009,
+            "duracion": 138,
+            "genero": "Misterio, Thriller",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Un joven caballero asciende al trono de Inglaterra y debe enfrentarse a conflictos internos y externos.",
+            "titulo": "The King",
+            "año": 2019,
+            "duracion": 140,
+            "genero": "Drama, Histórico",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Un científico crea vida artificial con consecuencias trágicas.",
+            "titulo": "Frankenstein",
+            "año": 1994,
+            "duracion": 123,
+            "genero": "Terror, Ciencia ficción",
+            "imagen": ""
+        },
+        {
+            "descripcion": "Un capitán estadounidense viaja a Japón y adopta la cultura samurái.",
+            "titulo": "El Último Samurái",
+            "año": 2003,
+            "duracion": 154,
+            "genero": "Acción, Drama, Histórico",
+            "imagen": ""
+        }
+    ],
+    "series": [
+        {
+            "descripcion": "Serie ambientada en la alta sociedad londinense del siglo XIX.",
+            "titulo": "Los Bridgerton",
+            "año": 2020,
+            "genero": "Drama, Romance",
+            "tiempo": 60,
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 60,
+                            "descripcion": "Daphne Bridgerton entra en la temporada social londinense."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 60,
+                            "descripcion": "Se intensifican los rumores y alianzas."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 58,
+                            "descripcion": "Un escándalo amenaza la reputación de la familia Bridgerton."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 62,
+                            "descripcion": "El romance entre Daphne y el duque se vuelve más complejo."
+                        }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 61,
+                            "descripcion": "Anthony Bridgerton decide encontrar esposa."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 59,
+                            "descripcion": "Las hermanas Sharma llegan a Londres causando sensación."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 60,
+                            "descripcion": "Anthony se debate entre el deber y sus verdaderos sentimientos."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 63,
+                            "descripcion": "Un evento social cambia el rumbo de varias relaciones."
+                        }
+                    ]
+                },
+                {
+                    "numero": 3,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 60,
+                            "descripcion": "Penelope enfrenta nuevas responsabilidades y secretos."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 57,
+                            "descripcion": "Colin regresa con una actitud diferente hacia la alta sociedad."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 60,
+                            "descripcion": "Un romance inesperado comienza a florecer."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 62,
+                            "descripcion": "Las revelaciones amenazan con cambiarlo todo."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "descripcion": "Grupo de ladrones realiza el mayor atraco de la historia en España.",
+            "titulo": "La Casa de Papel",
+            "año": 2017,
+            "genero": "Crimen, Drama",
+            "tiempo": 50,
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 47,
+                            "descripcion": "El Profesor recluta a su equipo para el atraco."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 42,
+                            "descripcion": "El plan comienza y surgen los primeros imprevistos."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 43,
+                            "descripcion": "La policía estrecha el cerco mientras crecen las tensiones internas."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 45,
+                            "descripcion": "Un error pone en peligro toda la operación."
+                        }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 50,
+                            "descripcion": "El equipo intenta mantener el control dentro de la Fábrica."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 48,
+                            "descripcion": "Nuevas decisiones complican la negociación con la policía."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 49,
+                            "descripcion": "Un rehén juega un papel clave en el desarrollo del plan."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 51,
+                            "descripcion": "El atraco alcanza un punto crítico e impredecible."
+                        }
+                    ]
+                },
+                {
+                    "numero": 3,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 50,
+                            "descripcion": "Un nuevo golpe se organiza tras un giro inesperado."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 52,
+                            "descripcion": "El plan se ejecuta con mayor riesgo y presión internacional."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 53,
+                            "descripcion": "El pasado de algunos miembros del equipo sale a la luz."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 55,
+                            "descripcion": "La tensión alcanza su punto máximo en medio del caos."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "descripcion": "Luchas de poder entre familias nobles por el Trono de Hierro.",
+            "titulo": "Juego de Tronos",
+            "año": 2011,
+            "genero": "Fantasía, Drama",
+            "tiempo": 60,
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 62,
+                            "descripcion": "La familia Stark recibe la visita del rey Robert."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 56,
+                            "descripcion": "Ned Stark acepta el cargo de Mano del Rey."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 58,
+                            "descripcion": "Intrigas políticas comienzan a dividir a las familias."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 60,
+                            "descripcion": "Una traición cambia el destino de los Siete Reinos."
+                        }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 53,
+                            "descripcion": "La guerra estalla entre las grandes casas."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 55,
+                            "descripcion": "Tyrion Lannister asume un papel clave en Desembarco del Rey."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 54,
+                            "descripcion": "Daenerys busca aliados en tierras lejanas."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 59,
+                            "descripcion": "Una gran batalla pone a prueba la lealtad de todos."
+                        }
+                    ]
+                },
+                {
+                    "numero": 3,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 57,
+                            "descripcion": "Nuevas alianzas se forman mientras crece la amenaza del Norte."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 58,
+                            "descripcion": "Un evento inesperado cambia el equilibrio del poder."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 60,
+                            "descripcion": "Los conflictos familiares alcanzan un punto crítico."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 61,
+                            "descripcion": "Las consecuencias de la traición sacuden los reinos."
+                        }
+                    ]
+                },
+                {
+                    "numero": 4,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 59,
+                            "descripcion": "Los supervivientes reorganizan sus estrategias."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 63,
+                            "descripcion": "Una batalla decisiva redefine el futuro del Trono de Hierro."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 64,
+                            "descripcion": "Secretos revelados cambian antiguas lealtades."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 60,
+                            "descripcion": "La guerra final se acerca inevitablemente."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "descripcion": "Un médico brillante pero antisocial resuelve casos complejos.",
+            "titulo": "House",
+            "año": 2004,
+            "genero": "Drama Médico",
+            "tiempo": 45,
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 44,
+                            "descripcion": "House trata a una profesora con síntomas misteriosos."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 43,
+                            "descripcion": "Un joven atleta sufre un colapso inexplicable durante un partido."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 45,
+                            "descripcion": "El equipo sospecha de una enfermedad rara en un niño pequeño."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 44,
+                            "descripcion": "Un paciente con doble vida complica el diagnóstico."
+                        }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 45,
+                            "descripcion": "Un corredor de bolsa presenta síntomas neurológicos extraños."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 44,
+                            "descripcion": "House desafía las reglas del hospital para salvar a una paciente embarazada."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 46,
+                            "descripcion": "Un famoso músico oculta información clave sobre su estado de salud."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 45,
+                            "descripcion": "El equipo se divide ante un diagnóstico controvertido."
+                        }
+                    ]
+                },
+                {
+                    "numero": 3,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 44,
+                            "descripcion": "House debe elegir nuevos miembros para su equipo médico."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 45,
+                            "descripcion": "Un caso clínico se convierte en una competición entre candidatos."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 44,
+                            "descripcion": "Un paciente con síntomas contradictorios desconcierta a todos."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 45,
+                            "descripcion": "Las decisiones personales de House afectan su trabajo."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "descripcion": "Las aventuras surrealistas de Finn y Jake en la Tierra de Ooo.",
+            "titulo": "Hora de Aventuras",
+            "año": 2010,
+            "genero": "Animación, Fantasía",
+            "tiempo": 11,
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 11,
+                            "descripcion": "Finn y Jake rescatan a la Princesa Chicle."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 11,
+                            "descripcion": "Finn intenta demostrar su valentía enfrentándose a un monstruo extraño."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 11,
+                            "descripcion": "Jake usa sus poderes elásticos para resolver un problema inesperado."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 11,
+                            "descripcion": "La Princesa Chicle pide ayuda para una misión científica peligrosa."
+                        }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 11,
+                            "descripcion": "Un nuevo villano aparece en la Tierra de Ooo."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 11,
+                            "descripcion": "Finn cuestiona lo que significa ser un héroe."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 11,
+                            "descripcion": "Jake recuerda una aventura de su pasado."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 11,
+                            "descripcion": "El Rey Helado intenta ganarse nuevos amigos."
+                        }
+                    ]
+                },
+                {
+                    "numero": 3,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 11,
+                            "descripcion": "Finn y Jake exploran una mazmorra llena de trampas."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 11,
+                            "descripcion": "Un deseo mal formulado provoca consecuencias caóticas."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 11,
+                            "descripcion": "Marceline comparte una historia de su pasado."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 11,
+                            "descripcion": "Una criatura mágica pone a prueba la amistad del dúo."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "descripcion": "Drama histórico ambientado en el Japón feudal.",
+            "titulo": "Shogun",
+            "año": 2024,
+            "genero": "Drama, Histórico",
+            "tiempo": 60,
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "capitulos": [
+                        {
+                            "numero": 1,
+                            "duracion": 60,
+                            "descripcion": "Un navegante inglés llega a Japón y cambia el equilibrio político."
+                        },
+                        {
+                            "numero": 2,
+                            "duracion": 58,
+                            "descripcion": "Las tensiones entre los daimyos aumentan mientras el extranjero aprende la cultura japonesa."
+                        },
+                        {
+                            "numero": 3,
+                            "duracion": 62,
+                            "descripcion": "Se forjan alianzas estratégicas en medio de la amenaza de guerra civil."
+                        },
+                        {
+                            "numero": 4,
+                            "duracion": 59,
+                            "descripcion": "Una traición inesperada altera los planes del señor feudal."
+                        },
+                        {
+                            "numero": 5,
+                            "duracion": 61,
+                            "descripcion": "El conflicto armado estalla y pone a prueba la lealtad de los samuráis."
+                        },
+                        {
+                            "numero": 6,
+                            "duracion": 63,
+                            "descripcion": "El destino del poder en Japón se decide en una confrontación definitiva."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
