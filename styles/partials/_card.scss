@@ -1,14 +1,71 @@
 @use "../variables" as *;
 @use "../mixins/mixin_card" as *;
 
-.card{
-    @include card;
+.card-style{
+    width: 150px;
+    margin: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    gap: 10px;
+    transition: all 0.3s ease-in;
+    position: relative;
+    color: black;
+    
+    img{
+        width: 150px;
+        border-radius: 3px;
+        border: 2px solid transparent;
+        transition: all 0.3s ease-in;
+
+        // Efecto oscuro
+        filter: brightness(70%);
+    }
+
+    span{
+        position: absolute;
+        left: 0;
+
+        width: 100%;
+        text-align: center;  
+
+        transition: all 0.3s ease-in;
+        transform: translateY(-3px);
+        opacity: 0;
+        color: white;
+    }
+
+    &:hover{
+        img{
+            border: 2px solid white;
+            filter: brightness(100%);
+        }
+
+        span{
+            // display: block;
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
 }
 
-.card_small{
-    @include card($card-small-width, $card-small-height);
+.card-format-regular{
+    span{
+        top: 200px;
+    }
 }
 
-.card_top{
-    @include card($card-top-width, $card-top-height);
+.card-format-small{
+    img{
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    span{
+        top: 110px;
+    }
 }
+
