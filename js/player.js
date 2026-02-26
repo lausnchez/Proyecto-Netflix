@@ -34,6 +34,8 @@ const muteIcon = `
 </svg>
 `;
 
+video.play();
+playBtn.innerHTML = pauseIcon;
 
 // PLAY / PAUSE
 playBtn.addEventListener("click", () => {
