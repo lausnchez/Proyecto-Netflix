@@ -1,20 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Netflix</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nefli</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <a href="" class="card-style card-format-regular">
-        <img src="images/posters/bridgerton.webp" alt="Poster Bridgerton">
-        <span>Los bridgerton</span>
-    </a>
-    <a href="" class="card-style card-format-small">
-        <img src="images/posters/bridgerton.webp" alt="Poster Bridgerton">
-        <span>Los bridgerton</span>
-    </a>
-    
+  <header class="main-header">
+        <div class="main-header__container">
+
+            <div class="main-header__logo">
+                <img src="images/logo.png" alt="">
+            </div>
+
+            <nav class="main-header__nav">
+                <a href="#" class="main-header__link main-header__link--active">
+                    <i class="bi bi-house-door"></i>
+                    Home
+                </a>
+
+                <a href="#" class="main-header__link">
+                    <i class="bi bi-film"></i>
+                    Películas
+                </a>
+
+                <a href="#" class="main-header__link">
+                    <i class="bi bi-tv"></i>
+                    Series
+                </a>
+            </nav>
+
+        </div>
+    </header>
+    <div class="player-details">
+        <video autoplay muted loop>
+            <source src="videoplayback.mp4" type="video/mp4">
+        </video>
+
+        <div class="player-details__content">
+            <div class="player-details__wrapper">
+
+                <div class="player-details__header">
+                    <h1>Nombre de la Película</h1>
+
+                    <p>
+                        Esta es la descripcion de la pelicula o serie que se muestra...
+                        Esta es la descripcion de la pelicula o serie que se muestra...
+                        Esta es la descripcion de la pelicula o serie que se muestra...
+                        Esta es la descripcion de la pelicula o serie que se muestra...
+                        Esta es la descripcion de la pelicula o serie que se muestra...
+                    </p>
+
+                    <div class="player-details__buttons">
+                        <button class="player-btn player-btn--play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-play me-1" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+                            </svg>
+                            Reproducir
+                        </button>
+
+                        <button class="player-btn player-btn--info">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-info-circle me-2" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                            </svg>
+                            Información
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <!-- Main App -->
+  <div id="mainApp" class="main-app">
+    <br><br><br><br><br>
+    <div class="content-section">
+      <div class="movie-row">
+        <h2 class="row-title">Mejores calificaciones</h2>
+        <div class="row-container">
+          <button class="scroll-btn scroll-btn-left">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+          <div class="movie-cards" id="topRatedRow"></div>
+          <button class="scroll-btn scroll-btn-right">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
