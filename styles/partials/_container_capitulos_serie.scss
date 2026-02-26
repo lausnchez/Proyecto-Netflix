@@ -1,0 +1,42 @@
+// Contenedor capitulos
+#contenedor_general_capitulos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    padding-left: 15%;
+
+}
+
+// Por cada capitulo
+.container_capitulos_serie{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+    align-items: stretch;
+
+    .mini_episodio{
+        width: 150px;
+        background: linear-gradient(180deg, rgb(48, 48, 48) 0%, rgb(26, 26, 26) 100%);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #303030;
+    }
+
+    .info_episodio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a{
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 120px;
+    }
+}
