@@ -56,3 +56,23 @@ document.getElementById("titulo").textContent = serie.titulo;
 document.getElementById("descripcion").textContent = serie.descripcion;
 document.getElementById("detalles").textContent = `${serie.genero} - ${serie.año} - ${serie.tiempo} mins`;
 document.getElementById("temporadas").textContent = `${serie.temporadas.length} Temporadas`;
+
+// Imprimir capitulos
+const container_capitulos = document.querySelector("#contenedor_general_capitulos");
+let temporada = serie.temporadas[0];
+temporada.capitulos.forEach(capitulo =>{
+    let capDiv = document.createElement("div");
+    capDiv.classList.add("container_capitulos_serie");
+    capDiv.innerHTML = `
+        <div class="mini_episodio">
+            <i class="bi bi-camera-reels"></i>
+        </div>
+        <div class="info_episodio">
+            <h4>Capítulo ${capitulo.numero}</h4>
+            <span>${capitulo.duracion} mins</span>
+            <p>${capitulo.descripcion}</p>
+            <a href="reproduccionPelicula.html">Reproducir</a>
+        </div>
+    `;
+    container_capitulos.appendChild(capDiv);
+});

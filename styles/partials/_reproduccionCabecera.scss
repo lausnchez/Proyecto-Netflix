@@ -1,15 +1,4 @@
-/* VARIABLES */
-$color-bg: #000;
-$color-white: #fff;
-$color-gray: #ddd;
-
-$btn-gray: rgba(109, 109, 110, 0.7);
-$btn-gray-hover: rgba(109, 109, 110, 0.4);
-
-$overlay-gradient: linear-gradient(to right,
-        rgba(0, 0, 0, 0.95) 15%,
-        rgba(0, 0, 0, 0.7) 50%,
-        transparent 100%);
+@use "../variables" as *;
 
 /* PLAYER DETAILS */
 .player-details {
@@ -94,11 +83,11 @@ $overlay-gradient: linear-gradient(to right,
     }
 
     &--info {
-        background: $btn-gray;
+        background: $color-button-gray;
         color: $color-white;
 
         &:hover {
-            background: $btn-gray-hover;
+            background: $color-button-gray-hover;
         }
     }
 }

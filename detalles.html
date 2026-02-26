@@ -17,40 +17,36 @@
 <body>
     <header class="main-header">
         <div class="main-header__container">
-
             <div class="main-header__logo">
-                <img src="images/logo.png" alt="">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
             </div>
-
             <nav class="main-header__nav">
-                <a href="#" class="main-header__link main-header__link--active">
+                <a href="index.html" class="main-header__link main-header__link--active">
                     <i class="bi bi-house-door"></i>
                     Home
                 </a>
 
-                <a href="#" class="main-header__link">
+                <a href="peliculas.html" class="main-header__link">
                     <i class="bi bi-film"></i>
                     Películas
                 </a>
-
-                <a href="#" class="main-header__link">
+                <a href="series.html" class="main-header__link">
                     <i class="bi bi-tv"></i>
                     Series
                 </a>
             </nav>
-
         </div>
     </header>
     <div class="reproductor-cabecera">
         <video autoplay muted loop>
-            <source src="videoplayback.mp4" type="video/mp4">
+            <source src="shogun_trailer.mp4" type="video/mp4">
         </video>
 
         <div class="reproductor-cabecera__content">
             <div class="reproductor-cabecera__wrapper">
 
                 <div class="reproductor-cabecera__poster">
-                    <img src="images/posters/shrek_2.jpg" alt="Carátula Película">
+                    <img src="images/posters/shogun_poster.webp" alt="Carátula Película">
                 </div>
 
                 <div class="reproductor-cabecera__description">
@@ -72,14 +68,14 @@
                     </div>
 
                     <div class="reproductor-cabecera__buttons">
-                        <button class="btn btn--play">
+                        <a href="reproduccionPelicula.html" class="btn btn--play">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                 class="bi bi-play me-1" viewBox="0 0 16 16">
                                 <path
                                     d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
                             </svg>
                             Reproducir
-                        </button>
+                        </a>
 
                         <button class="btn btn--list">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
@@ -95,14 +91,38 @@
         </div>
     </div>
 
+    <!-- Descripción -->
     <div style="width: 60%; margin: auto; margin-top: 20px;">
-        <h1>
+        <!-- <h1>
             Descripción: 
-        </h1>
-        <p id="descripcion" style="margin-top: 20px; font-size: 1.5rem;">
+        </h1> -->
+        <p id="descripcion" style="margin-top: 20px; font-size: 16px;">
             Descripcion
         </p>
     </div>
+    <!-- Capítulos -->
+    <div id="contenedor_general_capitulos">
+        <!-- <div class="container_capitulos_serie">
+            <div class="mini_episodio">
+                <i class="bi bi-camera-reels"></i>
+            </div>
+            <div class="info_episodio">
+                <h4>Titulo episodio</h4>
+                <span>59 mins</span>
+                <p>El destino del poder en Japón se decide en una confrontación definitiva.</p>
+            </div>
+        </div> -->
+    </div>
+    <footer class="footer">
+        <div class="div_logotipo"><img src="images/logo.png" alt="logotipo filmin"></div>
+        <div class="logotipos_footer">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+        </div>
+        <p>1999 - 2026 Filmin, Inc.</p>
+    </footer>
     <script src="js/detalles.js"></script>
 </body>
 

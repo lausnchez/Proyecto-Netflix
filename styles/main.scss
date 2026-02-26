@@ -1,8 +1,7 @@
 @use "variables";
 @use "base";
-
-// Mixins
-@use "mixins/mixin_card";
+@use "jordan_styles";
+@use "jordan_main";
 
 // Partials
 @use "partials/header";
@@ -11,3 +10,5 @@
 @use "partials/reproduccionCabecera";
 @use "partials/cabecera";
 @use "partials/player";
+@use "partials/card";
+@use "partials/container_capitulos_serie";
