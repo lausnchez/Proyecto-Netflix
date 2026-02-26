@@ -1,6 +1,7 @@
 initializeApp();
 function initializeApp() {
   renderMovieRow('topRatedRow', getTopRatedMovies());
+  renderMovieRow('peliculas_terror', getTopRatedMovies());
   setupScrollButtons();
 }
 

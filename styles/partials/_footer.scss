@@ -1,1 +1,39 @@
 @use "../variables" as *;
+
+.footer {
+    background-color: #141414;   /* fondo oscuro estilo Netflix */
+    color: #ffffff;
+    padding: 20px 40px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* para móviles que se ajusten */
+
+    .div_logotipo img {
+        width: 120px;
+    }
+
+}
+
+.footer .logotipos_footer {
+display: flex;
+gap: 20px;             /* espacio entre iconos */
+align-items: center;
+}
+
+.footer .logotipos_footer i {
+font-size: 24px;
+color: #ffffff;
+transition: color 0.3s ease, transform 0.3s ease;
+cursor: pointer;
+}
+
+
+
+.footer p {
+font-size: 14px;
+color: #b3b3b3;
+margin: 0;
+}

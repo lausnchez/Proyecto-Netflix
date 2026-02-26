@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -13,5 +14,6 @@ a {
 }
 
 body {
-  background-color: rgb(17, 17, 17);
+  background: #000;
+  color: #fff;
 }/*# sourceMappingURL=base.css.map */
