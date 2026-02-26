@@ -1,0 +1,79 @@
+$bg-dark: #000;
+$controls-bg: rgba(0, 0, 0, 0.7);
+$accent: #00e054;
+$text-light: #fff;
+
+.video-player {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: $bg-dark;
+  overflow: hidden;
+
+  &__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.4),
+        transparent);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+  }
+
+  &--hide-controls {
+    cursor: none;
+
+    .video-player__controls {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  color: $text-light;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.progress-container {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: $accent;
+  border-radius: 3px;
+}
+
+.time {
+  color: $text-light;
+  font-size: 0.9rem;
+  min-width: 60px;
+  text-align: right;
+}
