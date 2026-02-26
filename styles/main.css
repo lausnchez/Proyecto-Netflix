@@ -346,3 +346,64 @@ body {
   min-width: 60px;
   text-align: right;
 }/*# sourceMappingURL=main.css.map */
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+
+.card-style {
+  width: 150px;
+  margin: 10px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  gap: 10px;
+  transition: all 0.3s ease-in;
+  position: relative;
+  color: black;
+}
+.card-style img {
+  width: 150px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in;
+  filter: brightness(70%);
+}
+.card-style span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+  transform: translateY(-3px);
+  opacity: 0;
+  color: white;
+}
+.card-style:hover img {
+  border: 2px solid white;
+  filter: brightness(100%);
+}
+.card-style:hover span {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card-format-regular span {
+  top: 200px;
+}
+
+.card-format-small img {
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.card-format-small span {
+  top: 110px;
+}/*# sourceMappingURL=main.css.map */
