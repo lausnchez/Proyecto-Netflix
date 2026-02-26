@@ -1,9 +1,6 @@
 @use "variables";
 @use "base";
 
-// Mixins
-@use "mixins/mixin_card";
-
 // Partials
 @use "partials/header";
 @use "partials/footer";
@@ -11,3 +8,4 @@
 @use "partials/reproduccionCabecera";
 @use "partials/cabecera";
 @use "partials/player";
+@use "partials/card";
